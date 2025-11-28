@@ -1,0 +1,27 @@
+
+#pragma once
+
+
+// MATRIX 
+#define MATRIX_ROWS 3
+#define MATRIX_COLS 3
+#define MATRIX_ROWS_PINS {D4, D6, D7}
+
+
+// AMUX
+#define AMUX_SEL_PINS {F4, F5, F6}
+#define AMUX_EN_PINS B6
+
+
+// ANALOG PINS
+#define DISCHARGE_PIN E6
+#define ANALOG_READINGS_INPUT F0
+
+
+//NUMBES
+#define DISCHARGE_TIME_US 300
+#define CHARGE_TIME_US 100
+#define NOISE_FLOOR_SAMPLING_COUNT 20
+
+#define ACTUATION_LEVEL 500
+#define RELEASE_LEVEL 450

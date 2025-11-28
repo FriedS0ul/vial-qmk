@@ -1,0 +1,8 @@
+
+OPT = 2
+
+CUSTOM_MATRIX = lite
+
+ANALOG_DRIVER_REQUIRED = yes
+
+SRC += matrix.c

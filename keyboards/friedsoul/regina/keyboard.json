@@ -1,0 +1,32 @@
+{
+    "manufacturer": "FriedS0ul",
+    "keyboard_name": "Regina",
+    "maintainer": "FriedS0ul",
+    "bootloader": "stm32-dfu",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    
+    "processor": "STM32G431",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0x4652"
+    },
+    "layouts": {
+        "LAYOUT_macro_1x5": {
+            "layout": [
+                {"matrix": [0, 0], "w": 1.5, "x": 0, "y": 0},
+                {"matrix": [1, 0], "w": 1.75, "x": 0, "y": 1},
+                {"matrix": [2, 0], "x": 1.75, "y": 1},
+                {"h": 2, "matrix": [3, 0], "w": 1.25, "x": 2.75, "y": 0},
+                {"matrix": [4, 0], "x": 1.5, "y": 0}
+            ]
+        }
+    }
+}

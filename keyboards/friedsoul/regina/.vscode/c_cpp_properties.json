@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/QMK/quantum",
+                "D:/QMK/tmk_core",
+                "D:\\QMK\\platforms\\avr\\drivers",
+                "D:\\QMK\\qmk_firmware\\platforms",
+                "D:\\QMK_MSYS\\mingw64\\avr\\include\\avr",
+                "D:\\QMK\\platforms\\chibios",
+                "D:\\QMK\\platforms\\avr",
+                "D:\\QMK\\platforms",
+                "D:/QMK/platforms/test",
+                "D:/QMK/quantum/keymap_extras",
+                "D:/QMK/platforms/avr",
+                "D:\\QMK_MSYS\\mingw64\\avr\\include",
+                "D:/QMK/quantum/logging",
+                "D:/QMK/quantum/sequencer"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}

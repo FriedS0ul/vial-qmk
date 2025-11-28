@@ -1,0 +1,22 @@
+
+#pragma once 
+
+// MATRIX
+#define MATRIX_COLS 1
+#define MATRIX_ROWS 5
+
+// PINS
+#define MATRIX_ROW_PINS {A10, A8, A3, A2, A1}
+
+#define DISCHARGE_PIN A4
+
+#define ANALOG_READINGS_INPUT A7
+
+// NUMBES
+#define DISCHARGE_TIME_US 10
+
+#define NOISE_THRESHOLD_SAMPLING_COUNT 40
+#define NOISE_OFFSET 50
+
+#define ACTUATION_LEVEL 500
+#define RELEASE_LEVEL 450
